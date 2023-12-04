@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Intro = () => {
   return (
-    <div className='lg:grid lg:grid-cols-2 flex flex-col items-center lg:px-32 px-8 mt-24 pt-16'>
+    <div className='lg:grid lg:grid-cols-2 flex flex-col items-center lg:px-32 px-8 mt-24 lg:pt-16 pt-10'>
         <div className='lg:order-1 order-2 col-span-1 flex-col items-start justify-start space-y-4'>
             <h1 className='font-medium'>Hello, I'm</h1>
             <h1 className='text-5xl font-semibold'>David <br/> Osilama</h1>

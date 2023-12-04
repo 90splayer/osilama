@@ -9,30 +9,30 @@ const Works = () => {
   return (
     <div id='works' className='w-full pt-16 lg:px-32 px-8 flex-col lg:items-start items-center justify-start space-y-4'>
         <h1 className='font-medium text-2xl'>Works</h1>
-        <div className='grid grid-cols-2 gap-8'>
-            <div className='col-span-1 flex-col items-start justify-start space-y-4'>
-                <Image src={work1} alt=''/>
+        <div className='w-full grid grid-cols-2 gap-8'>
+            <div className='w-full col-span-1 flex-col items-start justify-start space-y-4'>
+                <Image src={work1} alt='' className='w-full h-auto object-cover'/>
                 <div className='flex-col items-start justify-start space-y-2'>
                     <h1 className='font-semibold text-lg'>Takeoff</h1>
                     <p className='text-xs'>Mobile App</p>
                 </div>
             </div>
-            <div className='col-span-1 flex-col items-start justify-start space-y-4'>
-                <Image src={work2} alt=''/>
+            <div className='w-full col-span-1 flex-col items-start justify-start space-y-4'>
+                <Image src={work2} alt='' className='w-full h-auto object-cover'/>
                 <div className='flex-col items-start justify-start space-y-2'>
                     <h1 className='font-semibold text-lg'>Takeoff</h1>
                     <p className='text-xs'>Mobile App</p>
                 </div>
             </div>
-            <div className='col-span-1 flex-col items-start justify-start space-y-4'>
-                <Image src={work3} alt=''/>
+            <div className='w-full col-span-1 flex-col items-start justify-start space-y-4'>
+                <Image src={work3} alt='' className='w-full h-auto object-cover'/>
                 <div className='flex-col items-start justify-start space-y-2'>
                     <h1 className='font-semibold text-lg'>Takeoff</h1>
                     <p className='text-xs'>Mobile App</p>
                 </div>
             </div>
-            <div className='col-span-1 flex-col items-start justify-start space-y-4'>
-                <Image src={work4} alt=''/>
+            <div className='w-full col-span-1 flex-col items-start justify-start space-y-4'>
+                <Image src={work4} alt='' className='w-full h-auto object-cover'/>
                 <div className='flex-col items-start justify-start space-y-2'>
                     <h1 className='font-semibold text-lg'>Takeoff</h1>
                     <p className='text-xs'>Mobile App</p>

@@ -41,7 +41,7 @@ const Header = () => {
                 className="lg:hidden flex h-6 w-6"
               />
             </div>
-            <ul className="w-full text-center flex-col items-center justify-start space-y-10">
+            <ul className="w-full text-center flex flex-col items-center justify-start space-y-10">
               <Link href="#works">Works</Link>
               <Link href="#about">About</Link>
               <Link href="#contact">Contact</Link>
