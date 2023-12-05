@@ -22,7 +22,7 @@ const Header = () => {
           <Link href="#works">Works</Link>
           <Link href="#about">About</Link>
           <Link href="#contact">Contact</Link>
-          <Link href="">Resume</Link>
+          <Link href="https://read.cv/david.osilama" target={"_blank"}>Resume</Link>
         </ul>
         <GiHamburgerMenu
           onClick={() => setIsOpen(true)}
@@ -45,7 +45,7 @@ const Header = () => {
               <Link href="#works">Works</Link>
               <Link href="#about">About</Link>
               <Link href="#contact">Contact</Link>
-              <Link href="">Resume</Link>
+              <Link href="https://read.cv/david.osilama" target={"_blank"}>Resume</Link>
             </ul>
             <div className="absolute bottom-8 w-full flex items-center justify-center space-x-7">
               <FaXTwitter />

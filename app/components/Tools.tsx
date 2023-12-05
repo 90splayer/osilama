@@ -8,7 +8,7 @@ const Tools = () => {
   return (
     <div className='w-full pt-16 lg:px-32 px-8 flex-col items-center justify-start space-y-4'>
         <h1 className='font-medium text-2xl text-center'>Tools</h1>
-        <div className="flex flex-wrap items-center justify-center px-16">
+        <div className="flex flex-wrap items-center justify-center px-16 ml-8">
             <div className="mr-8 w-16 h-16 border rounded-md px-4 pb-1 pt-3 flex flex-col items-center justify-center space-y-2 mb-4">
                 <SiAdobephotoshop className='w-5 h-5'/>
                 <p className="text-[0.5rem]">Photoshop</p>
