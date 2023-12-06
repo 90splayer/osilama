@@ -13,7 +13,7 @@ const Intro = () => {
         <div className='lg:order-2 order-start col-span-1 flex items-center justify-end'>
         <div className='flex flex-col space-y-2 items-center justify-start'>
             <Image src={intro} alt='car' className='w-48 h-auto object-contain'/>
-            <Link href="mailto:ojogbomichael@gmail.com" target={"_blank"} className='bg-[#4D1F29] py-2 rounded-md text-white text-xs text-center w-36'>Send message</Link>
+            <Link href="mailto:osid@yahoo.com" target={"_blank"} className='bg-[#4D1F29] py-2 rounded-md text-white text-xs text-center w-36'>Send message</Link>
         </div>
         </div>
     </div>

@@ -4,7 +4,7 @@ import Image from 'next/image'
 const About = () => {
   return (
     <div id='about' className='w-full pt-24 lg:px-32 px-8 flex-col lg:items-center items-start justify-start space-y-4'>
-        <h1 className='font-medium text-2xl text-center'>About</h1>
+        <h1 className='font-bold text-3xl text-center'>About</h1>
         <div className='lg:grid lg:grid-cols-10 flex flex-col items-center justify-start gap-4'>
             <div className='col-span-4 flex flex-col items-start justify-start gap-4 lg:pr-8 leading-7'>
                 <p>I’m David Osilama, a user-centered product designer who creates scalable designs that blend business goals with user needs.</p>

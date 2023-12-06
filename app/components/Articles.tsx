@@ -8,7 +8,7 @@ import what from '@/public/images/what.png'
 const Articles = () => {
   return (
     <div className="w-full pt-16 lg:px-32 px-8 flex-col items-start justify-start">
-      <h1 className="font-medium text-2xl text-center mb-4">Articles</h1>
+      <h1 className="font-bold text-3xl mb-4">Articles</h1>
       <Link href='https://medium.com/@solcrasher/what-happened-to-ftx-747be439c42a' className="grid grid-cols-10 items-center gap-4 border-t-2 py-8 px-8">
         <div className='col-span-3 h-full'>
             <Image src={ftx} alt='' className='lg:object-contain lg:h-auto h-full w-full object-cover object-left'/>
@@ -21,7 +21,7 @@ const Articles = () => {
             <GoArrowUpRight className='w-8 h-8 font-semibold'/>
         </div>
       </Link>
-      <Link href='https://medium.com/@solcrasher/web3-the-decentralized-internet-system-that-promises-to-change-everything-forever-5e7fbdb8e915' className="grid grid-cols-10 items-center gap-4 border-t-2 py-8 px-8">
+      <Link href='https://medium.com/@solcrasher/web3-the-decentralized-internet-system-that-promises-to-change-everything-forever-5e7fbdb8e915' className="grid grid-cols-10 items-center gap-4 border-y-2 py-8 px-8">
         <div className='col-span-3 h-full'>
             <Image src={what} alt='' className='lg:object-contain lg:h-auto h-full w-full object-cover object-center'/>
         </div>
